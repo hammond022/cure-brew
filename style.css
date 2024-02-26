@@ -157,15 +157,15 @@ nav {
 /* images */
 
 #featured-item1 {
-  background-image: url(featured1.png);
+  background-image: url(./images/featured1.png);
 }
 
 #featured-item2 {
-  background-image: url(featured2.png);
+  background-image: url(./images/featured2.png);
 }
 
 #featured-item3 {
-  background-image: url(featured3.png);
+  background-image: url(./images/featured3.png);
 }
 
 /* animations */
