@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+:root {
+  --primary: #34292a; /* foreground */
+  --secondary: #332f2e; /* background */
+}
+
 /* primatives */
 * {
   margin: 0;
@@ -90,7 +95,7 @@ nav {
 }
 
 .banner-header {
-  font-size: 7rem;
+  font-size: 3rem;
   color: whitesmoke;
 }
 
@@ -192,4 +197,25 @@ nav {
       transform: scale(1.05);
     }
   }
+}
+
+/* mission section */
+.mission-section {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mission-banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--primary);
+  padding: 3rem;
+  border-radius: 1rem;
+  height: 400px;
+}
+
+.mission-body {
+  font-size: 2.5rem;
+  padding: 2rem 10rem;
 }
