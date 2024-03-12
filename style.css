@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
 
+:root {
+  --primary: #34292a; /* foreground */
+  --secondary: #332f2e; /* background */
+}
+
 /* primatives */
 * {
   margin: 0;
@@ -32,7 +37,7 @@ img {
 
 section {
   padding: 4vh;
-  margin: 0 10rem;
+  margin: 0rem 10rem;
 }
 
 /* Navigation bar */
@@ -193,3 +198,66 @@ nav {
     }
   }
 }
+
+.cart-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* mission section */
+
+.mission-section {
+  padding: 10vh;
+  margin: 0rem 10rem;
+  transition: all 1s;
+}
+
+.mission-container {
+  height: 400px;
+  font-size: 2.5rem;
+}
+
+.mission-header {
+  padding-bottom: 3rem;
+  align-self: flex-start;
+}
+
+.mission-banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--primary);
+  padding: 3rem;
+  border-radius: 1rem;
+  height: 100%;
+  transition: all 1s;
+}
+
+.mission-body {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(10%);
+  transition: all 1s;
+}
+
+/* after begins */
+
+.mission-section-after {
+  padding: 10vh 0rem;
+  margin: 0rem 0rem;
+}
+
+.mission-banner-after {
+  padding: 0rem 15rem 4rem 15rem;
+  border-radius: 0rem;
+}
+
+.mission-body-after {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
+}
+.animated {
+}
+
+/* after ends */
