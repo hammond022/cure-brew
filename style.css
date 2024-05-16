@@ -130,7 +130,7 @@ nav {
   background-image: url(./images/merchandise/banner.png);
 }
 .banner_container.menu {
-  background-image: url(./images//menu/banner.png);
+  background-image: url(./images/menu/banner.png);
 }
 .banner_container.index {
   background-image: url(./images/banner.png);
@@ -164,7 +164,9 @@ input[type="search"] {
   width: 20%;
 }
 
-/*>>>> merch menu  */
+/*>>>> merch   */
+
+
 
 .merch_item_container {
   margin: 1em;
