@@ -12,46 +12,19 @@
       <a href="./index.html">
         <img class="logo-image" src="./images/logo.png" alt="" />
       </a>
-      <div class="nav-shop-buttons-container">
-        <input
-          class="nav-shop-buttons"
-          type="image"
-          src="./images/person.png"
-          alt=""
-        />
-        <input
-          class="nav-shop-buttons"
-          type="image"
-          src="./images/shopping.png"
-          alt=""
-        />
-      </div>
-    </nav>
-    <nav class="main-nav">
-      <div class="nav-row">
-        <ul class="nav-links">
-          <li><a href="./menu.html">Menu</a></li>
-          <li><a href="./merchandise.html">Merchandise</a></li>
-          <li><a href="./mission.html">Mission</a></li>
-        </ul>
-      </div>
-      <div class="nav-row">
-        <ul class="nav-links">
-          <li><a href="">Order Now</a></li>
-          <li><a href="">Sign in</a></li>
-          <li><a href="">Join</a></li>
-        </ul>
-      </div>
+      
     </nav>
 
     <!-- Banner (section 1)-->
 
-    <div class="banner_container index drop_shadow">
-      <h3 class="banner_container_text">Your coffee goes a long way,</h3>
-      <p class="banner_container_text">
-        Cure Brew is a coffee shop, where every sip supports a cause and every
-        purchase makes a difference.
+    <div class="coffee index">
+      <img id="logoleft" src="images/logo.png">
+      <p class="coffeetext">
+        Rich blends and special brew <br>crafted in Filipino Taste.
       </p>
+      <div class="button_order">
+      <button id="order" >Order Now!</button>
+      </div>
     </div>
 
     <!-- featured -->
@@ -61,23 +34,30 @@
         <div class="featured-container large">
           <div id="featured-item1" class="featured-item zoom-in">
             <div class="featured-text">
-              <h2>Coffee placeholder?</h2>
+              <h2>Coffee</h2>
             </div>
           </div>
         </div>
         <div class="featured-container small">
           <div id="featured-item2" class="featured-item zoom-in">
             <div class="featured-text">
-              <h2>Pastree placeholder?</h2>
+              <h2>Pastry</h2>
             </div>
           </div>
           <div id="featured-item3" class="featured-item zoom-in">
             <div class="featured-text">
-              <h2>Merch placeholder?</h2>
+              <h2>Merch</h2>
             </div>
           </div>
         </div>
       </div>
     </section>
   </body>
+ 
+  <script type="text/javascript">
+    document.getElementById("order").onclick = function () {
+        location.href = "menu.html";
+    };
+</script>
+
 </html>
