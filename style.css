@@ -47,6 +47,13 @@ section.inside {
   margin: 0 10rem;
 }
 
+.flex_center {
+  /* do not use unless necessary  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 h3 {
   font-size: xx-large;
 }
@@ -204,6 +211,10 @@ nav {
   background-color: #cdc3b5;
 }
 
+.banner_container.mission {
+  background-image: url(./images/mission/banner.png);
+}
+
 /* colors */
 
 .color_primary {
@@ -233,8 +244,6 @@ input[type="search"] {
 }
 
 /*>>>> merch   */
-
-
 
 .merch_item_container {
   margin: 1em;
@@ -587,7 +596,94 @@ input[type="search"] {
   font-size: larger;
 }
 
+<<<<<<< Updated upstream
 @font-face{
   font-family: andada;
   src: url(font/Andada-Italic.otf);
+=======
+/*  login/// register */
+
+.login.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+.login .image {
+  background-image: url(./images/login/banner.png);
+  width: 50%;
+}
+
+.login .form {
+  background-color: var(--primary);
+  width: 50%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  row-gap: 2em;
+  padding: 1em;
+}
+
+.login .form .logo {
+  height: 80px;
+}
+
+.login .form .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login .form .icons {
+  display: flex;
+  column-gap: 1em;
+}
+
+.login .form .input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5em;
+}
+
+.login .form .input .input {
+  font-size: larger;
+  background-color: var(--secondary);
+  border: 0.1em solid rgb(201, 201, 201);
+  border-radius: 0.2em;
+  padding: 0.5em;
+  outline: none;
+}
+
+.login .form .input .input:focus {
+  outline: solid rgb(201, 201, 201);
+  outline-width: 0.1em;
+}
+
+.login .form .input .button {
+  font-size: larger;
+  background-color: var(--secondary);
+  border: 0.1em solid rgb(201, 201, 201);
+  border-radius: 0.2em;
+  padding: 0.5em;
+}
+.login .form .input .button:hover {
+  outline: solid rgb(201, 201, 201);
+  outline-width: 0.1em;
+}
+
+.login.signin {
+  width: 40%;
+}
+
+.login .form.login {
+  width: 100%;
+>>>>>>> Stashed changes
 }
