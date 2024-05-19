@@ -133,6 +133,18 @@ nav {
   background-image: url(images/banner.png);
 }
 
+.banner_container.donation{
+  background-image: url(images/doantion.jpg);
+  height: 82.4vh;
+}
+
+.banner_container h3{
+  font-size: 4em;
+  font-weight: 900;
+  letter-spacing: 10px;
+  text-shadow: 7px 7px 30px black;
+}
+
 
 .banner_container.merchandise {
   background-image: url(./images/merchandise/banner.png);
