@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav-logo">
+      <a href="./index.html">
+        <img class="logo-image" src="./images/logo.png" alt="" />
+      </a>
+      
+    </nav>
+
+    <!-- Banner (section 1)-->
+
+    <div class="coffee index">
+      <img id="logoleft" src="images/logo.png">
+      <p class="coffeetext">
+        Rich blends and special brew <br>crafted in Filipino Taste.
+      </p>
+      <div class="button_order">
+      <button id="order" >Order Now!</button>
+      </div>
+    </div>
+
+    <!-- featured -->
+    <section class="inside">
+      <h1>Discover our flavors?</h1>
+      <div class="featured-container">
+        <div class="featured-container large">
+          <div id="featured-item1" class="featured-item zoom-in">
+            <div class="featured-text">
+              <h2>Coffee</h2>
+            </div>
+          </div>
+        </div>
+        <div class="featured-container small">
+          <div id="featured-item2" class="featured-item zoom-in">
+            <div class="featured-text">
+              <h2>Pastry</h2>
+            </div>
+          </div>
+          <div id="featured-item3" class="featured-item zoom-in">
+            <div class="featured-text">
+              <h2>Merch</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+ 
+  <script type="text/javascript">
+    document.getElementById("order").onclick = function () {
+        location.href = "menu.html";
+    };
+</script>
+
+</html>
