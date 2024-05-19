@@ -32,6 +32,10 @@ a {
   text-decoration: none;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 li {
   padding: 1rem;
   list-style: none;
@@ -52,6 +56,10 @@ section.inside {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.flex_center.column {
+  flex-direction: column;
 }
 
 h3 {
@@ -97,10 +105,7 @@ nav {
 .logo-image {
   margin: 0 auto;
   height: 100px;
-}
-
-.nav-shop-buttons-container {
-  display: flex;
+  position: relative;
 }
 
 .nav-shop-buttons {
@@ -117,6 +122,23 @@ nav {
 
 .nav-row {
   padding: 0em 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1em;
+}
+.nav-row.right {
+  padding: 0em 1em;
+}
+
+.nav-icon {
+  height: 40px;
+}
+
+.cart-counter {
+  position: absolute;
+  background-color: var(--primary);
+  border-radius: 0.2em;
 }
 
 /* banner */
@@ -874,8 +896,9 @@ input[type="search"] {
   overflow: hidden;
 }
 .login .image {
-  background-image: url(./images/login/banner.png);
+  background-image: url(./images/americano.jpg);
   width: 50%;
+  background-size: cover;
 }
 
 .login .form {
@@ -999,4 +1022,9 @@ input[type="search"] {
 .dashboard .button:hover {
   outline: solid rgb(255, 255, 255);
   outline-offset: 0.9em;
+}
+
+/*  */
+
+.dashboard.cart {
 }

@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,20 +12,6 @@
       <a href="./index.html">
         <img class="logo-image" src="./images/logo.png" alt="" />
       </a>
-      <div class="nav-shop-buttons-container">
-        <input
-          class="nav-shop-buttons"
-          type="image"
-          src="./images/person.png"
-          alt=""
-        />
-        <input
-          class="nav-shop-buttons"
-          type="image"
-          src="./images/shopping.png"
-          alt=""
-        />
-      </div>
     </nav>
     <nav class="main-nav">
       <div class="nav-row">
@@ -35,15 +21,22 @@
           <li><a href="./mission.html">Mission</a></li>
         </ul>
       </div>
-      <div class="nav-row">
+      <div class="nav-row right">
         <ul class="nav-links">
-          <li><a href="">Order Now</a></li>
-          <li><a href="">Sign in</a></li>
-          <li><a href="">Join</a></li>
+          <li><a href="./donations.html">Donations</a></li>
+          <li><a href="./login.html">Sign in</a></li>
         </ul>
+        <div>
+          <p class="cart-counter"></p>
+          <a href="./cart.html"
+            ><img class="nav-icon" src="./images/shopping1.png" alt=""
+          /></a>
+        </div>
+        <a href="./dashboard.html"
+          ><img class="nav-icon" src="./images/person1.png" alt=""
+        /></a>
       </div>
     </nav>
-
     <!-- div -->
     <section class="inside flex_center">
       <div class="login signin drop_shadow">
@@ -54,9 +47,9 @@
             <p>Access your Cure brew membership account</p>
           </div>
           <div class="icons">
-            <img src="./images/placeholder1x1.png" alt="" />
-            <img src="./images/placeholder1x1.png" alt="" />
-            <img src="./images/placeholder1x1.png" alt="" />
+            <img src="./images/login/icon1.png" alt="" />
+            <img src="./images/login/icon2.png" alt="" />
+            <img src="./images/login/icon3.png" alt="" />
           </div>
           <div class="input">
             <input class="input" size="30" type="email" name="Email" id="" />
@@ -64,11 +57,16 @@
             <input class="button" size="30" type="button" value="Login" />
           </div>
           <div class="text">
-            <p>Don't have an account yet? <a href="">Sign up here.</a></p>
+            <p>
+              Don't have an account yet?
+              <a class="underline" href="./register.html">Sign up here.</a>
+            </p>
             <p>
               <small
                 >By logging in, you agree to our
-                <a href="">Terms and Conditions</a>.</small
+                <a class="underline" href="./mission.html"
+                  >Terms and Conditions</a
+                >.</small
               >
             </p>
           </div>
