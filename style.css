@@ -943,3 +943,60 @@ input[type="search"] {
 .login .form.login {
   width: 100%;
 }
+
+/* dashboard */
+
+.dashboard {
+  background-color: var(--compliment);
+  width: 50%;
+  border-radius: 0.5em;
+  padding: 1em;
+  margin: 1em;
+}
+
+.dashboard .progbar {
+  width: 95%;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 1em;
+  border: 0.2em solid #cfcfcf;
+  overflow: hidden;
+}
+
+.dashboard .progbar .meter {
+  width: 20%;
+  height: 100%;
+  background-color: gold;
+}
+
+.dashboard .container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 1em;
+}
+
+.dashboard .header {
+  margin-bottom: 1em;
+}
+
+.dashboard .button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1em;
+  width: 100%;
+  margin: 2em 0em;
+}
+
+.dashboard .button .forward {
+  margin-left: auto;
+}
+
+.dashboard .button .icon {
+  height: 40px;
+}
+
+.dashboard .button:hover {
+  outline: solid rgb(255, 255, 255);
+  outline-offset: 0.9em;
+}
