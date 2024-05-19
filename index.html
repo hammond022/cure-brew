@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Cure Brew</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -12,18 +12,40 @@
       <a href="./index.html">
         <img class="logo-image" src="./images/logo.png" alt="" />
       </a>
-      
     </nav>
-
+    <nav class="main-nav">
+      <div class="nav-row">
+        <ul class="nav-links">
+          <li><a href="./menu.html">Menu</a></li>
+          <li><a href="./merchandise.html">Merchandise</a></li>
+          <li><a href="./mission.html">Mission</a></li>
+        </ul>
+      </div>
+      <div class="nav-row right">
+        <ul class="nav-links">
+          <li><a href="./donations.html">Donations</a></li>
+          <li><a href="./login.html">Sign in</a></li>
+        </ul>
+        <div>
+          <p class="cart-counter"></p>
+          <a href="./cart.html"
+            ><img class="nav-icon" src="./images/shopping1.png" alt=""
+          /></a>
+        </div>
+        <a href="./dashboard.html"
+          ><img class="nav-icon" src="./images/person1.png" alt=""
+        /></a>
+      </div>
+    </nav>
     <!-- Banner (section 1)-->
 
     <div class="coffee index">
-      <img id="logoleft" src="images/logo.png">
+      <img id="logoleft" src="images/logo.png" />
       <p class="coffeetext">
-        Rich blends and special brew <br>crafted in Filipino Taste.
+        Rich blends and special brew <br />crafted in Filipino Taste.
       </p>
       <div class="button_order">
-      <button id="order" >Order Now!</button>
+        <button id="order">Order Now!</button>
       </div>
     </div>
 
@@ -53,15 +75,13 @@
       </div>
     </section>
   </body>
- 
+
   <script type="text/javascript">
     document.getElementById("order").onclick = function () {
-        location.href = "menu.html";
+      location.href = "menu.html";
     };
-</script>
-
+  </script>
 </html>
-
 
 <!-- 
   #382821
