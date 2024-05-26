@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cure Brew</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.js"></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -38,41 +37,59 @@
         /></a>
       </div>
     </nav>
-    <!-- Banner (section 1)-->
 
-    <div class="coffee index">
-      <img id="logoleft" src="images/logo.png" />
-      <p class="coffeetext">
-        Rich blends and special brew <br />crafted in Filipino Taste.
-      </p>
-      <div class="button_order">
-        <button id="order">Order Now!</button>
+    <section class="flex_center">
+      <div class="dashboard drop_shadow">
+        <p>Your Rewards</p>
+        <h3>Gold member</h3>
+        <div class="container">
+          <div class="progbar"><div class="meter"></div></div>
+          <p class="percentage">20%</p>
+        </div>
+
+        <!-- temporary -->
+        <a href="./rewards.html"
+          ><div class="masterbutton"><p>See rewards</p></div></a
+        >
       </div>
-    </div>
+    </section>
 
-    <!-- featured -->
-    <section class="inside">
-      <h1>Discover our flavors?</h1>
-      <div class="featured-container">
-        <div class="featured-container large">
-          <div id="featured-item1" class="featured-item zoom-in">
-            <div class="featured-text">
-              <h2>Coffee</h2>
-            </div>
+    <section class="flex_center">
+      <div class="dashboard drop_shadow">
+        <h3 class="header">Account</h3>
+        <a href="./shipping.html">
+          <div class="button">
+            <img class="icon" src="./images/dashbord/ship.png" alt="" />
+            <p class="text">Shipping address</p>
+            <img
+              class="icon forward"
+              src="./images/dashbord/forward.png"
+              alt=""
+            />
           </div>
-        </div>
-        <div class="featured-container small">
-          <div id="featured-item2" class="featured-item zoom-in">
-            <div class="featured-text">
-              <h2>Pastry</h2>
-            </div>
+        </a>
+        <a href="./security.html">
+          <div class="button">
+            <img class="icon" src="./images/dashbord/security.png" alt="" />
+            <p class="text">Security</p>
+            <img
+              class="icon forward"
+              src="./images/dashbord/forward.png"
+              alt=""
+            />
           </div>
-          <div id="featured-item3" class="featured-item zoom-in">
-            <div class="featured-text">
-              <h2>Merch</h2>
-            </div>
+        </a>
+        <a href="./history.html">
+          <div class="button">
+            <img class="icon" src="./images/dashbord/history.png" alt="" />
+            <p class="text">Order history</p>
+            <img
+              class="icon forward"
+              src="./images/dashbord/forward.png"
+              alt=""
+            />
           </div>
-        </div>
+        </a>
       </div>
     </section>
     <footer>
@@ -102,19 +119,4 @@
       </ul>
     </footer>
   </body>
-
-  <script type="text/javascript">
-    document.getElementById("order").onclick = function () {
-      location.href = "menu.html";
-    };
-  </script>
 </html>
-
-<!-- 
-  #382821
-  #2A201c
-  #c0b29C
-  #dba878
-  #696144
-  #643F30
--->

@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cure Brew</title>
+    <title>Security</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.js"></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -38,44 +37,45 @@
         /></a>
       </div>
     </nav>
-    <!-- Banner (section 1)-->
 
-    <div class="coffee index">
-      <img id="logoleft" src="images/logo.png" />
-      <p class="coffeetext">
-        Rich blends and special brew <br />crafted in Filipino Taste.
-      </p>
-      <div class="button_order">
-        <button id="order">Order Now!</button>
-      </div>
-    </div>
+    <!-- 
 
-    <!-- featured -->
-    <section class="inside">
-      <h1>Discover our flavors?</h1>
-      <div class="featured-container">
-        <div class="featured-container large">
-          <div id="featured-item1" class="featured-item zoom-in">
-            <div class="featured-text">
-              <h2>Coffee</h2>
+
+        
+     -->
+
+    <section class="flex_center">
+      <div class="dashboard shipping drop_shadow">
+        <a href="./dashboard.html"
+          ><div class="button">
+            <img class="icon" src="./images/dashbord/back.png" alt="" />
+            <p>Dashboard</p>
+          </div></a
+        >
+
+        <h3 class="header">Your security information</h3>
+
+        <div class="container shipping">
+          <div class="shipping">
+            <div class="row">
+              <p class="name">Email</p>
+              <p class="number">johndoe@gmail.com</p>
             </div>
+
+            <br />
           </div>
-        </div>
-        <div class="featured-container small">
-          <div id="featured-item2" class="featured-item zoom-in">
-            <div class="featured-text">
-              <h2>Pastry</h2>
-            </div>
-          </div>
-          <div id="featured-item3" class="featured-item zoom-in">
-            <div class="featured-text">
-              <h2>Merch</h2>
-            </div>
+          <div>
+            <a href="./rewards.html">
+              <div class="masterbutton">
+                <p>Change password</p>
+              </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
-    <footer>
+
+    <footer class="absolute">
       <ul>
         <p>Connect with us</p>
         <li>
@@ -102,19 +102,4 @@
       </ul>
     </footer>
   </body>
-
-  <script type="text/javascript">
-    document.getElementById("order").onclick = function () {
-      location.href = "menu.html";
-    };
-  </script>
 </html>
-
-<!-- 
-  #382821
-  #2A201c
-  #c0b29C
-  #dba878
-  #696144
-  #643F30
--->

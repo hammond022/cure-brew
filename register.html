@@ -3,9 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cure Brew</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="./script.js"></script>
   </head>
   <body>
     <!-- Navigation -->
@@ -38,39 +37,40 @@
         /></a>
       </div>
     </nav>
-    <!-- Banner (section 1)-->
-
-    <div class="coffee index">
-      <img id="logoleft" src="images/logo.png" />
-      <p class="coffeetext">
-        Rich blends and special brew <br />crafted in Filipino Taste.
-      </p>
-      <div class="button_order">
-        <button id="order">Order Now!</button>
-      </div>
-    </div>
-
-    <!-- featured -->
-    <section class="inside">
-      <h1>Discover our flavors?</h1>
-      <div class="featured-container">
-        <div class="featured-container large">
-          <div id="featured-item1" class="featured-item zoom-in">
-            <div class="featured-text">
-              <h2>Coffee</h2>
-            </div>
+    <!-- div -->
+    <section class="inside flex_center">
+      <div class="login drop_shadow">
+        <div class="image"></div>
+        <div class="form">
+          <img class="logo" src="./images/logo.png" alt="" />
+          <div class="text">
+            <h3>Sign up for an account</h3>
+            <p>and join the movement</p>
           </div>
-        </div>
-        <div class="featured-container small">
-          <div id="featured-item2" class="featured-item zoom-in">
-            <div class="featured-text">
-              <h2>Pastry</h2>
-            </div>
+          <div class="icons">
+            <img src="./images/login/icon1.png" alt="" />
+            <img src="./images/login/icon2.png" alt="" />
+            <img src="./images/login/icon3.png" alt="" />
           </div>
-          <div id="featured-item3" class="featured-item zoom-in">
-            <div class="featured-text">
-              <h2>Merch</h2>
-            </div>
+          <div class="input">
+            <input class="input" size="30" type="email" name="Email" id="" />
+            <input class="input" size="30" type="password" name="" id="" />
+            <input class="button" size="30" type="button" value="Register" />
+          </div>
+          <div class="text">
+            <p>
+              Already have an account?
+              <a class="underline" href="./login.html">login here.</a>
+            </p>
+            <p>
+              <small
+                >By signing up, you agree to our<a
+                  class="underline"
+                  href="./mission.html"
+                  >Terms and Conditions</a
+                >.</small
+              >
+            </p>
           </div>
         </div>
       </div>
@@ -102,19 +102,4 @@
       </ul>
     </footer>
   </body>
-
-  <script type="text/javascript">
-    document.getElementById("order").onclick = function () {
-      location.href = "menu.html";
-    };
-  </script>
 </html>
-
-<!-- 
-  #382821
-  #2A201c
-  #c0b29C
-  #dba878
-  #696144
-  #643F30
--->
