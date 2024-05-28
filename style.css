@@ -358,6 +358,7 @@ input[type="search"] {
 #merch1 {
   background-image: url(./images/merchandise/merch1.png);
 }
+
 #merch2 {
   background-image: url(./images/merchandise/2.jpg);
 }
@@ -390,8 +391,28 @@ input[type="search"] {
   background-image: url(./images/merchandise/9.png);
 }
 
+#merch9_1 {
+  background-image: url(./images/merchandise/2.14.png);
+}
+
+#merch9_2 {
+  background-image: url(./images/merchandise/2.15.png);
+}
+
 #merch10 {
-  background-image: url(./images/merchandise/10.jpg);
+  background-image: url(./images/merchandise/10.png);
+}
+
+#merch10_1 {
+  background-image: url(./images/merchandise/2.12.jpg);
+}
+
+#merch10_2 {
+  background-image: url(./images/merchandise/2.13.png);
+}
+
+#merch10_3 {
+  background-image: url(./images/merchandise/2.16.jpg);
 }
 
 /*>>>> index  */
@@ -552,6 +573,7 @@ input[type="search"] {
 #item1 {
   background-image: url(./images/menu/1.1.jpg);
 }
+
 #item2 {
   background-image: url(./images/menu/1.2.jpg);
 }
@@ -577,6 +599,8 @@ input[type="search"] {
 #item9 {
   background-image: url(./images/menu/1.9.jpg);
 }
+
+
 #item10 {
   background-image: url(./images/menu/1.10.jpg);
 }
@@ -1162,13 +1186,16 @@ footer.absolute {
   background-repeat: no-repeat;
   height: auto;
   width: 70%;
+  margin-right:3em;
+  margin-top: 6em;
+  margin-left: -2em;
 }
-
 
 .product_text_container_box{
   background-color: white;
   border-radius: 1.2em;
   box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19);
+  margin-right: -2em;
 
 }
 
