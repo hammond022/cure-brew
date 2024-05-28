@@ -1156,25 +1156,36 @@ footer.absolute {
   padding-left: 7em;
   padding-right: 7em;
   margin: 2em;
+  border-radius: 2px;
 }
 .product_image{
   background-repeat: no-repeat;
+  height: auto;
+  width: 70%;
 }
+
 
 .product_text_container_box{
   background-color: white;
   border-radius: 1.2em;
- 
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19);
+
 }
 
 .product_textbox{
   margin: 2em;
-  
+  text-align: center;
 }
 
-.product_textbox h3, p, button{
+.product_textbox h3{
   color: black;
-  text-align: center;
+}
+
+.product_textbox p{
+  color: black;
+}
+
+.product_textbox button{
   color: black;
 }
 
@@ -1187,8 +1198,46 @@ footer.absolute {
 .product_size button{
   background-color: white;
   padding: 0.8em;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
   border-radius: 0.7em;
   margin: 0.4em;
   border: none;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19);
+}
+
+.product_size button:active{
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19) inset;
+}
+
+.product_p p{
+  text-align: left;
+}
+
+.product_p{
+  padding: 1.8em;
+  padding-bottom: 3em;
+}
+
+.product_price p{
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+.product_buynow button{
+  background-color: #d3d3d3;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  border-radius: 0.5em;
+  margin: 0.4em;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19);
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.product_buynow button:active{
+  box-shadow: 0 4px 4px 0 rgba(0,0,0,0.2), 0 6px 5px 0 rgba(0,0,0,0.19) inset;
+
 }
