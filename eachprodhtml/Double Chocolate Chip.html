@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cure Brew Notebook White</title>
+    <title>Double Chocolate Chip</title>
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
@@ -41,25 +41,36 @@
     <section class="product">
         <div class="product_container">
             <div class="product_container_inner">
-                <div class="product_image">
-                    <img src="../images/merchandise/2.5.png">
+                <div class="product_image_menu">
+                    <img src="../images/menu/1.23.jpg">
                 </div>
 
                 <div class="product_text_container_box">
                     <div class="product_textbox">
-                    <h3>Saved one with a Cure Brew Notebook White</h3> <hr>
+                    <h3>Saved one with a Double Chocolate Chip</h3> <hr>
 
                         <div class="prosize_container">
-                    <div class="product_quantity">
-                        <span class="minus" style="color:black;">-</span>
-                        <span class="num" style="color:black;">01</span>
-                        <span class="plus" style="color:black;">+</span>
-                    </div>
+                          <div class="product_size">
+                            <button>Small</button>
+                        </div>
+                        <div class="product_size">
+                            <button>Tall</button>
+                        </div>
+                        <div class="product_size">
+                            <button>Grande</button>
+                        </div>
+                        <div class="product_size">
+                            <button>Venti</button>
+                        </div>
+                        
+                    
                     </div> <hr>
 
                 <div class="product_p">
                     <p>Description:</p><br>
-                    <p>Screenprinted front graphics.<br>90% cotton, 10% polyester</p> 
+                    <p>
+                      A double chocolate chip is an indulgent version of a regular chocolate drink, made with extra chocolate for a more intense flavor. This can include both cocoa powder and melted chocolate, resulting in a thicker, richer, and more decadent beverage.
+                    </p> 
                   </div>
                   <hr>
                   <div class="product_price">
@@ -74,7 +85,54 @@
         </div>
     </section>
 
-   
+    <section class="inside">
+      <div class="search_container">
+        <h4>MENU</h4>
+       
+      </div>
+      <hr class="drop_shadow" />
+    </section>
+
+    <section class="inside">
+
+      <div class="menu_container">
+
+        <h4>COLD BREW</h4>
+         <hr />
+        <div class="main">
+          <div class="item">
+            <div id="item9" class="image"></div>
+            <p class="text">Whipped Drizzled Choco</p>
+            
+            <button id="drink1">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div id="item10" class="image"></div>
+            <p class="text">Chocolate Drink</p>
+            
+            <button  id="drink2">ADD TO CART</button>
+          </div>
+         
+          <div class="item">
+            <div id="item12" class="image"></div>
+            <p class="text">Iced Mocha</p>
+            
+            <button id="drink4">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div id="item13" class="image"></div>
+            <p class="text">Ice Americano</p>
+          
+            <button  id="drink5">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div id="item8" class="image"></div>
+            <p class="text">Salted Caramel</p>
+            
+            <button  id="drink6">ADD TO CART</button>
+          </div>
+
+     </section>
    
       <footer>
 
@@ -111,32 +169,9 @@
         </div>
       </footer>
   
+      <script src="myScript.js"></script>
   </body>
 
-  <script>
-
-    const plus = document.querySelector(".plus"),
-    minus = document.querySelector(".minus"),
-    num = document.querySelector(".num");
-
-    let a = 1;
-
-    plus.addEventListener("click", ()=>{
-      if(a < 10){
-      a++;
-      a = (a < 10) ? "0" + a : a;
-      num.innerText = a;
-      console.log(a);
-      }
-    })
-
-    minus.addEventListener("click", ()=>{
-      if(a > 1){
-        a--;
-        a = (a < 10) ? "0" + a : a;
-        num.innerText = a;
-      }
-    })
-  </script>
+  
  
 </html>

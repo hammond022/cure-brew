@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cure Brew Notebook White</title>
+    <title>Ice Cream Brownie</title>
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
@@ -41,13 +41,13 @@
     <section class="product">
         <div class="product_container">
             <div class="product_container_inner">
-                <div class="product_image">
-                    <img src="../images/merchandise/2.5.png">
+                <div class="product_image_menu">
+                    <img src="../images/menu/1.31.jpg">
                 </div>
 
                 <div class="product_text_container_box">
                     <div class="product_textbox">
-                    <h3>Saved one with a Cure Brew Notebook White</h3> <hr>
+                    <h3>Saved one with a Ice Cream Brownie</h3> <hr>
 
                         <div class="prosize_container">
                     <div class="product_quantity">
@@ -59,7 +59,9 @@
 
                 <div class="product_p">
                     <p>Description:</p><br>
-                    <p>Screenprinted front graphics.<br>90% cotton, 10% polyester</p> 
+                    <p>
+                      Ice cream brownies are a decadent dessert featuring a layer of classic brownie topped with a scoop (or layer) of ice cream. They combine the warm, fudgy texture of brownies with the cold, creamy texture of ice cream, often finished with chocolate sauce or sprinkles.
+                    </p> 
                   </div>
                   <hr>
                   <div class="product_price">
@@ -74,7 +76,59 @@
         </div>
     </section>
 
-   
+    <section class="inside">
+
+      <div class="menu_container">
+          <h4>PASTRY</h4>
+         <hr />
+        <div class="main">
+          <div class="item">
+            <div id="item1" class="image"></div>
+            <p class="text">Strawberry Tart</p>
+            
+            <button  id="pastry1">ADD TO CART</button>
+          </div>
+          
+          <div class="item">
+            <div id="item2" class="image"></div>
+            <p class="text">Raspberry Cheesecake</p>
+          
+            <button id="pastry2">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div  id="item3" class="image"></div>
+            <p class="text">Chocolate Stick Bread</p>
+            
+            <button id="pastry3">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div  id="item4" class="image"></div>
+            <p class="text">Croissant</p>
+            
+            <button id="pastry4">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div id="item5" class="image"></div>
+            <p class="text">Classic Brownie</p>
+            
+            <button  id="pastry5">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div id="item6" class="image"></div>
+            <p class="text">Chocolate Chip Brownie</p>
+            
+            <button  id="pastry6">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div id="item7" class="image"></div>
+            <p class="text">Raspberry Brownie</p>
+          
+            <button  id="pastry7">ADD TO CART</button>
+          </div>
+          
+        </div>
+        </div>
+      </section>
    
       <footer>
 
@@ -111,6 +165,7 @@
         </div>
       </footer>
   
+      <script src="myScript.js"></script>
   </body>
 
   <script>
@@ -122,7 +177,7 @@
     let a = 1;
 
     plus.addEventListener("click", ()=>{
-      if(a < 10){
+      if(a < 12){
       a++;
       a = (a < 10) ? "0" + a : a;
       num.innerText = a;

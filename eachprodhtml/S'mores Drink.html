@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cure Brew Notebook White</title>
+    <title>S'mores Drink</title>
     <link rel="stylesheet" href="../style.css" />
   </head>
   <body>
@@ -42,24 +42,35 @@
         <div class="product_container">
             <div class="product_container_inner">
                 <div class="product_image">
-                    <img src="../images/merchandise/2.5.png">
+                    <img src="../images/menu/1.19.jpg">
                 </div>
 
                 <div class="product_text_container_box">
                     <div class="product_textbox">
-                    <h3>Saved one with a Cure Brew Notebook White</h3> <hr>
+                    <h3>Saved one with a S'mores Drink</h3> <hr>
 
                         <div class="prosize_container">
-                    <div class="product_quantity">
-                        <span class="minus" style="color:black;">-</span>
-                        <span class="num" style="color:black;">01</span>
-                        <span class="plus" style="color:black;">+</span>
-                    </div>
+                          <div class="product_size">
+                            <button>Small</button>
+                        </div>
+                        <div class="product_size">
+                            <button>Tall</button>
+                        </div>
+                        <div class="product_size">
+                            <button>Grande</button>
+                        </div>
+                        <div class="product_size">
+                            <button>Venti</button>
+                        </div>
+                        
+                    
                     </div> <hr>
 
                 <div class="product_p">
                     <p>Description:</p><br>
-                    <p>Screenprinted front graphics.<br>90% cotton, 10% polyester</p> 
+                    <p>
+                        A s'mores drink is inspired by the classic campfire treat, featuring flavors of chocolate, graham crackers, and marshmallows. This decadent beverage can be served hot or cold, often topped with whipped cream and a drizzle of chocolate, with a hint of toasted marshmallow flavor.
+                    </p> 
                   </div>
                   <hr>
                   <div class="product_price">
@@ -73,6 +84,48 @@
             </div>
         </div>
     </section>
+
+    <section class="inside">
+
+        <div class="menu_container">
+            <h4>UNCAFFEINATED DRINKS</h4>
+           <hr />
+          <div class="main">
+          
+          <div class="item">
+            <div id="item15" class="image"></div>
+            <p class="text">Mango Tapioca</p>
+            
+            <button  id="drink7">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div id="item16" class="image"></div>
+            <p class="text">Milo</p>
+            
+            <button id="drink8">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div id="item17" class="image"></div>
+            <p class="text">Watermelon Soda</p>
+            
+            <button id="drink9">ADD TO CART</button>
+          </div>
+          <div class="item">
+            <div id="item18" class="image"></div>
+            <p class="text">Lemon Soda</p>
+            
+            <button id="drink10">ADD TO CART</button>
+          </div>
+          
+          <div class="item">
+            <div id="item14" class="image"></div>
+            <p class="text">Strawberry Shake</p>
+            
+            <button id="drink12">ADD TO CART</button>
+          </div>
+          </div>
+          </div>
+          </section>
 
    
    
@@ -111,32 +164,9 @@
         </div>
       </footer>
   
+      <script src="myScript.js"></script>
   </body>
 
-  <script>
-
-    const plus = document.querySelector(".plus"),
-    minus = document.querySelector(".minus"),
-    num = document.querySelector(".num");
-
-    let a = 1;
-
-    plus.addEventListener("click", ()=>{
-      if(a < 10){
-      a++;
-      a = (a < 10) ? "0" + a : a;
-      num.innerText = a;
-      console.log(a);
-      }
-    })
-
-    minus.addEventListener("click", ()=>{
-      if(a > 1){
-        a--;
-        a = (a < 10) ? "0" + a : a;
-        num.innerText = a;
-      }
-    })
-  </script>
+  
  
 </html>
