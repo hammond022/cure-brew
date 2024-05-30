@@ -1284,4 +1284,18 @@ footer.absolute {
 }
 
 
+.testimonials_container{
+  margin: 1em;
+}
+
+.testimonials_name p{
+  font-weight: bold;
+  font-size: 1.8em;
+  font-style: italic;
+}
+
+.testimonials_p p{
+  font-size: 1.3em;
+}
+
 
