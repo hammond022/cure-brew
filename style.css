@@ -505,6 +505,7 @@ input[type="search"] {
 }
 
 /* >>>> menu */
+
 .menu_selection_container {
   display: flex;
   height: 8em;
@@ -525,15 +526,20 @@ input[type="search"] {
   font-size: x-large;
 }
 
+.anc1 {
+  height: 60%;
+  width: 40%;
+}
+
 .menu-selection-inner.favorites {
-  background-image: url(./images/fave.png);
+  background-color: var(--compliment);
 }
 .menu-selection-inner.coffee {
-  background-image: url(./images/menu/beans.jpg);
+  background-color: var(--compliment);
 }
 
 .menu-selection-inner.pastry {
-  background-image: url(./images/menu/pastry.jpg);
+  background-color: var(--compliment);
 }
 
 .menu_container {
