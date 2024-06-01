@@ -39,105 +39,106 @@
     </nav>
 
     <section class="product">
-        <div class="product_container">
-            <div class="product_container_inner">
-                <div class="product_image_menu">
-                    <img src="../images/menu/1.29.jpg">
+      <div class="product_container">
+        <div class="product_container_inner">
+          <div class="product_image_menu">
+            <img src="../images/menu/1.29.jpg" />
+          </div>
+
+          <div class="product_text_container_box">
+            <div class="product_textbox">
+              <h3>Saved one with a Chocolate Chip Brownie</h3>
+              <hr />
+
+              <div class="prosize_container">
+                <div class="product_quantity">
+                  <span class="minus" style="color: black">-</span>
+                  <span class="num" style="color: black">01</span>
+                  <span class="plus" style="color: black">+</span>
                 </div>
+              </div>
+              <hr />
 
-                <div class="product_text_container_box">
-                    <div class="product_textbox">
-                    <h3>Saved one with a Chocolate Chip Brownie</h3> <hr>
-
-                        <div class="prosize_container">
-                    <div class="product_quantity">
-                        <span class="minus" style="color:black;">-</span>
-                        <span class="num" style="color:black;">01</span>
-                        <span class="plus" style="color:black;">+</span>
-                    </div>
-                    </div> <hr>
-
-                <div class="product_p">
-                    <p>Description:</p><br>
-                    <p>
-                        Chocolate chip brownies are a variation of classic brownies with the addition of chocolate chips mixed into the batter. This adds extra bursts of chocolate flavor and a bit of texture to each bite.
-                    </p> 
-                  </div>
-                  <hr>
-                  <div class="product_price">
-                    <p>P690.00</p>
-                  </div>
-                    <div class="product_buynow">
-                        <button>Buy Now</button>
-                    </div>
-                    </div>
-                </div>
+              <div class="product_p">
+                <p>Description:</p>
+                <br />
+                <p>
+                  Chocolate chip brownies are a variation of classic brownies
+                  with the addition of chocolate chips mixed into the batter.
+                  This adds extra bursts of chocolate flavor and a bit of
+                  texture to each bite.
+                </p>
+              </div>
+              <hr />
+              <div class="product_price">
+                <p>P690.00</p>
+              </div>
+              <div class="product_buynow">
+                <button>Buy Now</button>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    
     <footer>
       <div class="social-icons">
-          <div class="lines">
-              <div class="space_footer">
-          <a
-          href="https://www.instagram.com/curebrew.2024?igsh=ejNmbHUwMDA1OTJt"
-          ><img src="images/igicon.png"> </a>
-        <a
-          href="https://www.facebook.com/profile.php?id=61560053663458&mibextid=LQQJ4d"
-          ><img src="images/fbicon.png"> </a>
-      </div>
-      </div>
+        <div class="lines">
+          <div class="space_footer">
+            <a
+              href="https://www.instagram.com/curebrew.2024?igsh=ejNmbHUwMDA1OTJt"
+              ><img src="../images/igicon.png" />
+            </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=61560053663458&mibextid=LQQJ4d"
+              ><img src="../images/fbicon.png" />
+            </a>
+          </div>
+        </div>
       </div>
       <div class="company-info">
-          <p>Copyright &copy; 2024 Cure Brew</p>
+        <p>Copyright &copy; 2024 Cure Brew</p>
       </div>
 
       <div class="footer_paragraphs">
-          <p><img src="images/phoneicon.png">+63 09165453441</p>
-          <p><img src="images/gmailicon.png">hexellence157@gmail.com</p>
-        </div>
+        <p><img src="../images/phoneicon.png" />+63 09165453441</p>
+        <p><img src="../images/gmailicon.png" />hexellence157@gmail.com</p>
+      </div>
 
       <div class="footer-links">
-
-          <a href="./mission.html#team">About Us</a>
-          <a href="./mission.html#terms">Terms and conditions</a> 
-          <a href="./mission.html#privacy">Privacy policy</a>
-          <a href="./mission.html#transparency">Transparency</a>
-  
+        <a href="./mission.html#team">About Us</a>
+        <a href="./mission.html#terms">Terms and conditions</a>
+        <a href="./mission.html#privacy">Privacy policy</a>
+        <a href="./mission.html#transparency">Transparency</a>
       </div>
-  </footer>
-      
-      <script src="myScript2.js"></script>
+    </footer>
+
+    <script src="myScript2.js"></script>
   </body>
 
   <script>
-
     const plus = document.querySelector(".plus"),
-    minus = document.querySelector(".minus"),
-    num = document.querySelector(".num");
+      minus = document.querySelector(".minus"),
+      num = document.querySelector(".num");
 
     let a = 1;
 
-    plus.addEventListener("click", ()=>{
-      if(a < 12){
-      a++;
-      a = (a < 10) ? "0" + a : a;
-      num.innerText = a;
-      console.log(a);
+    plus.addEventListener("click", () => {
+      if (a < 12) {
+        a++;
+        a = a < 10 ? "0" + a : a;
+        num.innerText = a;
+        console.log(a);
       }
-    })
+    });
 
-    minus.addEventListener("click", ()=>{
-      if(a > 1){
+    minus.addEventListener("click", () => {
+      if (a > 1) {
         a--;
-        a = (a < 10) ? "0" + a : a;
+        a = a < 10 ? "0" + a : a;
         num.innerText = a;
       }
-    })
-
-    
+    });
   </script>
- 
 </html>
