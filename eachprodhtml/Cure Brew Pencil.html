@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cure Brew Pencil</title>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="nav-logo">
+      <a href="../index.html">
+        <img class="logo-image" src="../images/logo.png" alt="" />
+      </a>
+    </nav>
+    <nav class="main-nav">
+      <div class="nav-row">
+        <ul class="nav-links">
+          <li><a href="../menu.html">Menu</a></li>
+          <li><a href="../merchandise.html">Merchandise</a></li>
+          <li><a href="../mission.html">About us</a></li>
+        </ul>
+      </div>
+      <div class="nav-row right">
+        <ul class="nav-links">
+          <li><a href="../donations.html">Donations</a></li>
+          <li><a href="../login.html">Sign in</a></li>
+        </ul>
+        <div>
+          <p class="cart-counter"></p>
+          <a href="../cart.html"
+            ><img class="nav-icon" src="../images/shopping1.png" alt=""
+          /></a>
+        </div>
+        <a href="../dashboard.html"
+          ><img class="nav-icon" src="../images/person1.png" alt=""
+        /></a>
+      </div>
+    </nav>
+
+    <section class="product">
+        <div class="product_container">
+            <div class="product_container_inner">
+                <div class="product_image">
+                    <img src="../images/merchandise/2.9.png">
+                </div>
+
+                <div class="product_text_container_box">
+                    <div class="product_textbox">
+                    <h3>Saved one with a Cure Brew Pencil</h3> <hr>
+
+                        <div class="prosize_container">
+                    <div class="product_quantity">
+                        <span class="minus" style="color:black;">-</span>
+                        <span class="num" style="color:black;">01</span>
+                        <span class="plus" style="color:black;">+</span>
+                    </div>
+                    </div> <hr>
+
+                <div class="product_p">
+                    <p>Description:</p><br>
+                    <p>Screenprinted front graphics.<br>90% cotton, 10% polyester</p> 
+                  </div>
+                  <hr>
+                  <div class="product_price">
+                    <p>P690.00</p>
+                  </div>
+                    <div class="product_buynow">
+                        <button>Buy Now</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+   
+      <footer>
+
+        <div class="footer_container">
+          <div class="footer_logo">
+            <p>Connect with us</p>
+            <a
+              href="https://www.instagram.com/curebrew.2024?igsh=ejNmbHUwMDA1OTJt"
+              ><img src="../images/igicon.png"> </a>
+            <a
+              href="https://www.facebook.com/profile.php?id=61560053663458&mibextid=LQQJ4d"
+              ><img src="../images/fbicon.png"> </a>
+          </div>
+  
+          <hr>
+  
+        <div class="footer_paragraphs">
+          <p><img src="../images/phoneicon.png">+63 09165453441</p>
+          <p><img src="../images/gmailicon.png">hexellence157@gmail.com</p>
+        </div>
+        </div>
+  
+        <div class="footer_container">
+          <div class="footer_learn">
+           
+              <p>Learn about us</p> <hr>
+            
+              <a href="../mission.html#team">Our team</a>
+              <a href="../mission.html#terms">Terms and conditions</a> <br>
+              <a href="../mission.html#privacy">Privacy policy</a>
+              <a href="../mission.html#transparency">Transparency</a>
+      
+          </div>
+        </div>
+      </footer>
+  
+  </body>
+
+  <script>
+
+    const plus = document.querySelector(".plus"),
+    minus = document.querySelector(".minus"),
+    num = document.querySelector(".num");
+
+    let a = 1;
+
+    plus.addEventListener("click", ()=>{
+      if(a < 10){
+      a++;
+      a = (a < 10) ? "0" + a : a;
+      num.innerText = a;
+      console.log(a);
+      }
+    })
+
+    minus.addEventListener("click", ()=>{
+      if(a > 1){
+        a--;
+        a = (a < 10) ? "0" + a : a;
+        num.innerText = a;
+      }
+    })
+  </script>
+ 
+</html>
