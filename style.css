@@ -1375,3 +1375,72 @@ footer.absolute {
   height: 50px;
   border-radius: 100%;
 }
+
+/* service offered */
+
+.service {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+.service .description {
+  background-color: var(--compliment);
+  padding: 1em;
+  border-radius: 1em;
+}
+.service .list {
+  background-color: var(--secondary);
+  padding: 1em;
+  border-radius: 1em;
+}
+
+/* company */
+.company_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.company_profile {
+  margin-top: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 5em;
+  padding: 0em 15em;
+}
+
+.company_profile .profile {
+  background-size: cover;
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+}
+
+#bona {
+  background-image: url(./images/company/bona.jpg);
+}
+#kurt {
+  background-image: url(./images/company/kurt.jpg);
+}
+#borjal {
+  background-image: url(./images/company/borjal.jpg);
+}
+#dom {
+  background-image: url(./images/company/dom.jpg);
+}
+#lambon {
+  background-image: url(./images/company/lambon.jpg);
+}
+#zausa {
+  background-image: url(./images/company/zausa.jpg);
+}
